@@ -1,0 +1,105 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-02-02T00:35:53.613Z",
+    "end": "2025-02-02T00:36:15.069Z",
+    "duration": 21456,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "d7e189b9-c966-4d42-b6c7-b6f64edcdc68",
+      "title": "",
+      "fullFile": "cypress\\e2e\\test02.spect.cy.js",
+      "file": "cypress\\e2e\\test02.spect.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "d2ea7864-9cac-414c-a776-1ea7be667ff6",
+          "title": "Become a cutomer",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Successful form registration",
+              "fullTitle": "Become a cutomer Successful form registration",
+              "timedOut": null,
+              "duration": 21410,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_Home.default.acceptOurPolicy();\n_Contact.default.clickOnBecomeAClient();\n_Contact.default.BecomeClientCreatedInTheForm();\n_Contact.default.newCustomerRegistrationEntered();\n_Home.default.goToInsightsPage();\n_Insights.default.clicOnBlog();\n_Contact.default.printAllPostTitles();",
+              "err": {},
+              "uuid": "d16f630c-7d97-4ed6-9370-f3deefc2f19e",
+              "parentUUID": "d2ea7864-9cac-414c-a776-1ea7be667ff6",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "d16f630c-7d97-4ed6-9370-f3deefc2f19e"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 21410,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports",
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
