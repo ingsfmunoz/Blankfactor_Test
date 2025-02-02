@@ -47,17 +47,17 @@ class Conctact {
 
     BecomeClientCreatedInTheForm() {
         cy.get(this.firtsNameFields).should('be.visible');
-        cy.get(this.firtsNameFields).type("Test1");
+        cy.get(this.firtsNameFields).type("Tester Testing");
         cy.get(this.lastName).should('be.visible');
-        cy.get(this.lastName).type("Test1");
+        cy.get(this.lastName).type("Tester Testing");
         cy.get(this.company).should('be.visible');
-        cy.get(this.company).type("Blankfactor");
+        cy.get(this.company).type("Tester Testing");
         cy.get(this.email).should('be.visible');
-        cy.get(this.email).type("prueba@gmail.com");
+        cy.get(this.email).type("testertesting@gmail.com");
         cy.get(this.phone).should('be.visible');
         cy.get(this.phone).type("3175753245");
         cy.get(this.tellUsAboutYourProjects).should('be.visible');
-        cy.get(this.tellUsAboutYourProjects).type("Test");
+        cy.get(this.tellUsAboutYourProjects).type("Blankfactor Test");
         cy.get(this.acceptPolicy).should('not.be.checked');
         cy.get(this.acceptPolicy).check();
         cy.get(this.acceptPolicy).check().should('be.checked');
